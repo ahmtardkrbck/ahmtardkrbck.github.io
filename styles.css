@@ -58,9 +58,17 @@ section {
   height: 102vh;
 }
 
+.cv-link {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .cv-viewer {
     display: none;
+  }
+
+  .cv-link {
+    display: block;
   }
 }
 
